@@ -4,8 +4,7 @@
 --------
 
 一、设置处理器型号type修改为 Unknown
-    --------------------
-    
+   
 * 在config引导设置中将处理器型号type设置为 Unknown。（“关于本机”页面处理器已识别为 “未知” 的，可跳过此步骤，直接到第二步）
 
 * 使用 Clover Configurator 软件，加载 Clover（四叶草）的配置文件 config.plist，选择左侧 CPU 页，在 Type 栏填写 Unknown，保存退出（如果无法输入 Unknown，可以输入 0x00） 
